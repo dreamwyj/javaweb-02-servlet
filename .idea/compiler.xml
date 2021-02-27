@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="request" />
+        <module name="response" />
+        <module name="servlet01" />
+        <module name="servlet02" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="javaweb-session-cookie" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="encoding utf- 8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="javaweb-02-servlet" options="" />
+      <module name="javaweb-session-cookie" options="" />
+      <module name="request" options="" />
+      <module name="response" options="" />
+      <module name="servlet01" options="" />
+      <module name="servlet02" options="" />
+    </option>
+  </component>
+</project>
